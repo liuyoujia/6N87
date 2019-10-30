@@ -1,0 +1,11 @@
+
+refinement.geometry_restraints.edits {
+  bond {
+    action = *add
+    atom_selection_1 = name  SG  and chain C and resseq    1
+    atom_selection_2 = name  S1  and chain C and resseq  101
+    symmetry_operation = x,y,z
+    distance_ideal = 2.099968
+    sigma = 0.050
+  }
+}
